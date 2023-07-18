@@ -15,4 +15,4 @@ public class SmartPhone extends Phone {
  *Not: Bir alt-sınıf, super() metodunu kullanarak, üst sınıfının bir
  *nesnesini yaratabilir ve onun değişkenlerine değer atayabilir. Ortak
  * nitelikler this ile tanımlanamadığından super kullanımı gereklidir.
- * */
+ *  */
