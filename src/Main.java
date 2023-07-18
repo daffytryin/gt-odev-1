@@ -7,8 +7,8 @@ public class Main {
         smartPhoneArray[2] = new SmartPhone(7502, "SP3", "123125", "507123458","64GB", "12GB","32MP");
         smartPhoneArray[3] = new SmartPhone(10000, "SP4", "123126", "507123459","128GB", "6GB","32MP");
         smartPhoneArray[4] = new SmartPhone(12000, "SP5", "123127", "507123460","128GB", "12GB","48MP");
-        /*5 adet smartphone tanımladım*/
-        double totalPrice = PhoneApp.calculateTotalPrice(smartPhoneArray); //PhoneApp sınıfı içerisindeki metodu çağırdım
-        System.out.println("Total prize = " +totalPrice); //class içerisinde tanımladığım değer toplamını yazdırdım
+        /*5 adet smartphone tanımlandı*/
+        double totalPrice = PhoneApp.calculateTotalPrice(smartPhoneArray); //PhoneApp sınıfı içerisindeki metodu çağırır
+        System.out.println("Total prize = " +totalPrice); //class içerisinde tanımladığım değer toplamını yazdırır
     }
 }

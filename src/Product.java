@@ -24,6 +24,6 @@ public class Product {
 
 
     public int getPrice(){
-        return price; //class içersinden fiyat birimini çekiyorum, toplam fiyatı hesaplamak için ihtiyacım olacak
+        return price; //class içersinden fiyat birimini çeker, toplam fiyatı hesaplamak gerekli
     }
 }
