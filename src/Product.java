@@ -13,11 +13,14 @@ public class Product {
     String id;
     String name;
 
+    public Product(){
+
+    } //no args Constructor
     Product(int price, String id, String name) {
         this.price = price;
         this.id = id;
         this.name = name;
-    }
+    }//all args Constructor
 
     public int getPrice(){
         return price; //class içersinden fiyat birimini çekiyorum, toplam fiyatı hesaplamak için ihtiyacım olacak
