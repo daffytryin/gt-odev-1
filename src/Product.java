@@ -22,6 +22,7 @@ public class Product {
         this.name = name;
     }//all args Constructor
 
+
     public int getPrice(){
         return price; //class içersinden fiyat birimini çekiyorum, toplam fiyatı hesaplamak için ihtiyacım olacak
     }
